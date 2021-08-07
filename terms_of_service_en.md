@@ -1,3 +1,7 @@
+---
+title: Terms of Service
+---
+
 # Terms of Service
 
 This Terms of Service (hereinafter referred to as the "Terms") sets forth the terms and conditions of use for the services (hereinafter referred to as the "Service") provided by Limited Liability Company Neumann (hereinafter referred to as the "Company") on this website (hereinafter referred to as the "Sites") and the rights and obligations between the Company and its Registered Users. In order to use this service, you must read and agree to these Terms in their entirety.

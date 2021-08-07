@@ -1,3 +1,7 @@
+---
+title: 日本語
+---
+
 <div class="sign-up-link-container">
   <a href="https://word-penne.neumann.tokyo" class="sign-up-link">Sign Up/Sign In</a>
 </div>

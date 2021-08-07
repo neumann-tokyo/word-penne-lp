@@ -4,3 +4,7 @@ plugins:
   - jekyll-seo-tag
 title: Word Penne
 description: Word Penne is a flashcard creation app that supports your language learning.
+logo: https://word-penne-lp.neumann.tokyo/assets/images/android-chrome-192x192.png
+image: https://word-penne-lp.neumann.tokyo/assets/images/android-chrome-192x192.png
+author: LLC Neumann
+url: https://word-penne-lp.neumann.tokyo
