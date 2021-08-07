@@ -115,3 +115,9 @@ body {
 .sign-up-link:hover {
   background-color:  #ba4a42;
 }
+
+@media only screen and (max-width: 600px) {
+  .sign-up-link {
+    font-size: 2rem;
+  }
+}
