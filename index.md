@@ -1,5 +1,7 @@
 English | [日本語](/index-jp)
 
+# [Start](https://word-penne.neumann.tokyo)
+
 ## About Word Penne
 
 Word Penne is a flashcard creation app that supports your language learning.

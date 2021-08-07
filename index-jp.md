@@ -1,5 +1,7 @@
 [English](/) | 日本語
 
+# [はじめる](https://word-penne.neumann.tokyo)
+
 ## Word Penne について
 
 Word Penne はあなたの言語学習をサポートする単語帳作成アプリです。
