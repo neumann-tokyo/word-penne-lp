@@ -1,4 +1,6 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 title: Word Penne
-description: Word Penne is a web service to make flash cards
-show_downloads: false
+description: Word Penne is a flashcard creation app that supports your language learning.

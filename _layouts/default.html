@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  {% feed_meta %}
+  {% seo %}
+</head>
+
+<body>
+  {% include navigation.html %}
+
+  <div class="top-title-container">
+    <div class="top-title-frame">
+      <img src="/assets/images/android-chrome-512x512.png" class="top-title-image" />
+      <h1 class="top-title">Word Penne</h1>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <main role="main" class="main">
+      {{ content }}
+    </main>
+  </div>
+</body>
+
+</html>

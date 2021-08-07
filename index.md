@@ -1,6 +1,6 @@
-English | [日本語](/index-jp)
-
-# [Start](https://word-penne.neumann.tokyo)
+<div class="sign-up-link-container">
+  <a href="https://word-penne.neumann.tokyo" class="sign-up-link">Sign Up/Sign In</a>
+</div>
 
 ## About Word Penne
 

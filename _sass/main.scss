@@ -1,0 +1,117 @@
+// (def color
+//   {:main-background "#f9f5f1"
+//    :main-text "#111111"
+//    :assort-background "#D6D2C4"
+//    :assort-border "#5D534A"
+//    :accent-background "#cf534a"
+//    :accent-border "#ba4a42"
+//    :accent-text "#ffffff"
+//    :title-text "#444444"
+//    :error-text "#cf534a"
+
+//    :bad-card-text "#cf534a"
+//    :weak-card-text "#cfa74a"
+//    :good-card-text "#76cf4a"})
+
+body {
+  background-color: #f9f5f1;
+  color: #111111;
+  font-family: sans-serif;
+}
+
+.top-title-container {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.top-title-frame {
+  background-color: #f9f5f1;
+  border: solid 1px #5D534A;
+  display: inline-block;
+  position: relative;
+  padding: 2rem 0 0;
+}
+
+.top-title-frame::before {
+  content: '';
+  border: solid 1px #5D534A;
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  top: 5px;
+  left: 5px;
+}
+
+.top-title-image {
+  width: 20%;
+  height: 20%;
+}
+
+.top-title {
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+}
+
+// ---------
+// nav
+
+.nav {
+  background-color: #D6D2C4;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  padding-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.nav::after{
+  content: '';
+  position: absolute;
+  background: linear-gradient(45deg, #f9f5f1 50%, transparent 52%),
+    linear-gradient(315deg, #f9f5f1 50%, transparent 52%);
+  background-size: 30px 30px;
+  height: 30px;
+  width: 100%;
+  top: 60px;
+  left: 0;
+}
+
+.nav__link {
+  color: #f9f5f1;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #111111;
+}
+
+// ---------
+
+.main {
+  margin: auto;
+  width: 80%;
+}
+
+// ---------
+
+.sign-up-link-container {
+  text-align: center;
+  margin: 2rem;
+}
+
+.sign-up-link {
+  font-size: 3rem;
+  background-color:  #cf534a;
+  border: solid 1px #ba4a42;
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 15px 20px;
+}
+
+.sign-up-link:hover {
+  background-color:  #ba4a42;
+}
