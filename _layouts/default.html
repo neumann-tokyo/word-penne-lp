@@ -16,8 +16,18 @@
 <body>
   {% include navigation.html %}
 
-  {{ content }}
+  <div class="top-title-container">
+    <div class="top-title-frame">
+      <img src="/assets/images/android-chrome-512x512.png" class="top-title-image" />
+      <h1 class="top-title">Word Penne</h1>
+    </div>
+  </div>
 
+  <div class="main-container">
+    <main role="main" class="main">
+      {{ content }}
+    </main>
+  </div>
 </body>
 
 </html>

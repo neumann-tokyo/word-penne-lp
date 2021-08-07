@@ -1,4 +1,4 @@
-- name: Home
+- name: English
   link: /
-- name: About
-  link: /about.html
+- name: Japanese
+  link: /index-jp.html

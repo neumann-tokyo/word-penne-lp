@@ -16,7 +16,7 @@
 body {
   background-color: #f9f5f1;
   color: #111111;
-  font-family: 'Anton', sans-serif;
+  font-family: sans-serif;
 }
 
 .top-title-container {
@@ -49,6 +49,7 @@ body {
 
 .top-title {
   font-size: 3rem;
+  font-family: 'Anton', sans-serif;
 }
 
 // ---------
@@ -62,6 +63,7 @@ body {
   padding-top: 10px;
   font-size: 2rem;
   text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 .nav::after{
@@ -85,5 +87,31 @@ body {
   color: #111111;
 }
 
+// ---------
+
+.main {
+  margin: auto;
+  width: 80%;
+}
 
 // ---------
+
+.sign-up-link-container {
+  text-align: center;
+  margin: 2rem;
+}
+
+.sign-up-link {
+  font-size: 3rem;
+  background-color:  #cf534a;
+  border: solid 1px #ba4a42;
+  font-family: 'Anton', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 15px 20px;
+}
+
+.sign-up-link:hover {
+  background-color:  #ba4a42;
+}
