@@ -1,3 +1,51 @@
-.current {
-  color: green;
+// (def color
+//   {:main-background "#f9f5f1"
+//    :main-text "#111111"
+//    :assort-background "#D6D2C4"
+//    :assort-border "#5D534A"
+//    :accent-background "#cf534a"
+//    :accent-border "#ba4a42"
+//    :accent-text "#ffffff"
+//    :title-text "#444444"
+//    :error-text "#cf534a"
+
+//    :bad-card-text "#cf534a"
+//    :weak-card-text "#cfa74a"
+//    :good-card-text "#76cf4a"})
+
+body {
+  background-color: #f9f5f1;
+  color: #111111;
+}
+
+.top-title-container {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.top-title-frame {
+  background-color: #f9f5f1;
+  border: solid 1px #5D534A;
+  display: inline-block;
+  position: relative;
+  padding: 2rem 0 0;
+}
+
+.top-title-frame::before {
+  content: '';
+  border: solid 1px #5D534A;
+  position: absolute;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  top: 5px;
+  left: 5px;
+}
+
+.top-title-image {
+  width: 20%;
+  height: 20%;
+}
+
+.top-title {
+  font-size: 3rem;
 }
